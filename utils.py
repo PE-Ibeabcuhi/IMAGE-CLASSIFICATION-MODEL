@@ -19,7 +19,7 @@ def set_app_style(background_color, center_image_path):
         }}
         .stApp {{
             background: url(data:image/png;base64,{image_base64}) center center no-repeat;
-            background-size: 100vh 100vw;
+            background-size: 750px 100%;
             display: flex;
             align-items: center;
             justify-content: center;
