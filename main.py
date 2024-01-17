@@ -10,7 +10,7 @@ import utils
 st.markdown("<h1 style='text-align: LEFT; color: #353839; font-weight: LIGHT; font-size: 37px;'>Chocolate Image Classification</h1>", unsafe_allow_html=True)
 
 # Brief introduction of the model
-st.markdown("<h1 style='text-align: LEFT; font-size: 14px;'>This is a simple neural network model that helps classify images of white and dark <br>chocolate. While this model is rudimentary, it serves as a valuable introduction to the <br>concepts of image classification and neural networks. </h1>", unsafe_allow_html=True)
+st.markdown("<h1 style='text-align: LEFT; color: #353839; font-size: 14px;'>This is a simple neural network model that helps classify images of white and dark <br>chocolate. While this model is rudimentary, it serves as a valuable introduction to the <br>concepts of image classification and neural networks. </h1>", unsafe_allow_html=True)
 
 
 # Set overall background color and center image
