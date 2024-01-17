@@ -31,5 +31,6 @@ if file is not None:
     st.image(new_image, use_column_width=True)
 
     predictions = utils.read_img2(image, model)
-    st.write("## {}".format(predictions))
+    st.write("## <span style='color:black'>{}</span>".format(predictions), unsafe_allow_html=True)
+
 

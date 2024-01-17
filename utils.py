@@ -36,6 +36,6 @@ def read_img2(image, model):
     yhat = model.predict(np.expand_dims(resize / 255, 0))
 
     if yhat > 0.5:
-        return 'Predicted class is White Chocolate'
+        return 'This is a White Chocolate'
     else:
-        return 'Predicted class is Dark Chocolate'
+        return 'This is a Dark Chocolate'
