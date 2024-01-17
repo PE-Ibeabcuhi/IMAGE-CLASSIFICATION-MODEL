@@ -26,11 +26,20 @@ model = load_model('model.h5')
 
 # Display image and predictions
 if file is not None:
-    image = Image.open(file)
-    new_image = image.resize((700, 400))
-    st.image(new_image, use_column_width=True)
+    try:
+        image = Image.open(file)
+        # Check if the image is in the correct format (RGB)
+        if image.mode != "RGB":
+            raise ValueError("Invalid image format. Please upload an RGB image.")
+        
+        new_image = image.resize((700, 400))
+        st.image(new_image, use_column_width=True)
 
-    predictions = utils.read_img2(image, model)
-    st.write("## <span style='color:black'>{}</span>".format(predictions), unsafe_allow_html=True)
+        predictions = utils.read_img2(np.array(new_image), model)
+        st.write("## <span style='color:black'>{}</span>".format(predictions), unsafe_allow_html=True)
+
+    except Exception as e:
+        st.error(f"Error processing the image: {str(e)}")
+
 
 
