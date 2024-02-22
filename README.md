@@ -47,5 +47,8 @@ This application can be deployed using various platforms, including Streamlit Sh
 Contributions to this project are welcome. Feel free to open issues for bug fixes, feature requests, or general improvements. Pull requests are also encouraged.
 
 ## PREVIEW
-Here is a short video of how the app works
+Here is a short video of how the app works.
+
+https://github.com/PE-Ibeabcuhi/IMAGE-CLASSIFICATION-MODEL/assets/118570090/7c0f880a-1ec8-4804-81e0-636e92462550
+
 
