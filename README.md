@@ -45,3 +45,7 @@ This application can be deployed using various platforms, including Streamlit Sh
 
 ## Contributing
 Contributions to this project are welcome. Feel free to open issues for bug fixes, feature requests, or general improvements. Pull requests are also encouraged.
+
+## PREVIEW
+Here is a short video of how the app works
+
