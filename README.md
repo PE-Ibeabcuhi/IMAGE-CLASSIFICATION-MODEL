@@ -2,11 +2,12 @@
 This is a Streamlit web application developed for classifying images of white and dark chocolate using a Convolutional Neural Network (CNN) model. Users can upload images of chocolates, and the application will predict whether the uploaded image contains white chocolate or dark chocolate.
 
 ## Features
-Image Classification: Upload chocolate images in JPEG, JPG, PNG, or WEBP formats to get predictions.
-Simple Interface: User-friendly interface for easy interaction.
-Model Explanation: Brief introduction of the CNN model used for classification.
-Error Handling: Proper error messages for invalid image formats or processing errors.
-Installation
+* Image Classification: Upload chocolate images in JPEG, JPG, PNG, or WEBP formats to get predictions.
+* Simple Interface: User-friendly interface for easy interaction.
+* Model Explanation: Brief introduction of the CNN model used for classification.
+* Error Handling: Proper error messages for invalid image formats or processing errors.
+
+## Installation
 To run the application locally, follow these steps:
 
 1. Clone this repository:
