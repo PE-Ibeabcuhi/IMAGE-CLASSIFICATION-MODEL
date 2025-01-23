@@ -30,7 +30,7 @@ pip install -r requirements.txt
 streamlit run app.py
 ```
 
-7. Access the application in your web browser at http://localhost:8501.
+7. Access the application in your web browser at [HERE!](https://chocolate-image-classification.streamlit.app/).
 
 ## Model Information
 The underlying CNN model (model.h5) has been trained on a dataset containing images of white and dark chocolates. The model architecture, training procedure, and evaluation metrics are detailed in the model_training.ipynb notebook available in this repository.
